@@ -1,0 +1,45 @@
+.header {
+  background-color: #000;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+
+  &__logo {
+    display: inline-block;
+    max-width: 8rem;
+    margin: 1rem 0;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    a {
+      font-size: 1.4rem;
+      color: seashell;
+
+      &:hover {
+        color: red;
+      }
+      &:focus {
+        color: red;
+        border-bottom: 0.5px solid seashell;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav {
+    width: 30%;
+  }
+}

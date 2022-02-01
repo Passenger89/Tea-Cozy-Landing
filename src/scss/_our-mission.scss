@@ -1,0 +1,12 @@
+.our-mission {
+  display: flex;
+  align-items: center;
+  min-height: 30rem;
+  background: no-repeat center/cover
+    url(../resources/images/img-mission-background.webp);
+
+  .mission-inner-div {
+    background-color: #000;
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat center/cover
+    url(../resources/images/img-locations-background.webp);
+  min-height: 50rem;
+
+  h2 {
+    max-width: 100%;
+  }
+
+  .locations-flex-container {
+    display: flex;
+    justify-content: center;
+    min-height: 30rem;
+    min-width: 100%;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 0 1 30rem;
+    margin: 1.5rem 2rem;
+    padding: 1rem;
+    background-color: #000;
+  }
+}

@@ -1,0 +1,25 @@
+@use 'reset';
+@use 'globals';
+@use 'header';
+@use 'our-mission';
+@use 'tea-month';
+@use 'locations';
+@use 'contact';
+@use 'footer';
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  background-color: #000;
+  color: seashell;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  top: 6.5rem;
+  padding: 1rem;
+}
